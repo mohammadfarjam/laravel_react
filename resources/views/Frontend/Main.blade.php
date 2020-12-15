@@ -24,7 +24,7 @@
             type="text/javascript"></script> -->
 </head>
 <body  >
-<div id="Main">
+<div  style="direction:rtl;text-align:right;" id="Main">
 
 </div>
 <script src="js/app.js"></script>

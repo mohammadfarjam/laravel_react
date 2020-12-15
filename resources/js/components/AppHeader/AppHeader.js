@@ -3,11 +3,12 @@ import React from 'react';
 import { Menu } from 'antd';
 const { SubMenu } = Menu;
 import style from './AppHeader.css';
-
+import { ConfigProvider } from 'antd';
 export default function AppHeader(props) {
     
     return (
-        <Menu  mode="horizontal" style={{textAlign:'center',direction:'rtl'}}>
+        <ConfigProvider direction="rtl">
+        <Menu  mode="horizontal" style={{textAlign:'center',direction:'rtl'}} >
            <Menu.Item key="home">
        <span className='font'>صفحه اصلی</span>
         </Menu.Item>
@@ -19,16 +20,15 @@ export default function AppHeader(props) {
         <span className='font'>همه دوره ها </span>
           
         </Menu.Item>
-        <SubMenu key="SubMenu" title="فایل های آموزشی" className='font'>
+        <SubMenu key="SubMenu" title="فایل های آموزشی" className='font' >
           
-            <SubMenu key="sub2"  title="برنامه نویسی" className='dir'>
-                {/* <Menu.Item key="5" className='dir'>
-                    <a href='http://www.google.com' >PHP</a></Menu.Item>
-                <Menu.Item key="6">C++</Menu.Item> */}
+            <SubMenu key="sub2"  title="برنامه نویسی" >
+                <Menu.Item key="5">PHP</Menu.Item>
+                <Menu.Item key="6">C++</Menu.Item>
       
             </SubMenu>
-            <Menu.Item key="setting:2" className='dir'> مهارت های اساسی کامپیوتر</Menu.Item>
-            <Menu.Item key="setting:3" className='dir'> انیمیشن سازی</Menu.Item>
+            <Menu.Item key="setting:2" > مهارت های اساسی کامپیوتر</Menu.Item>
+            <Menu.Item key="setting:3" > انیمیشن سازی</Menu.Item>
 
            
          </SubMenu>
@@ -39,6 +39,8 @@ export default function AppHeader(props) {
           </a>
         </Menu.Item>
       </Menu>
+      </ConfigProvider>
+       
         
 
     )
