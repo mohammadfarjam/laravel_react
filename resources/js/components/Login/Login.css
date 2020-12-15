@@ -1,0 +1,85 @@
+.login {
+    width: 400px;
+    height: 490px;
+    border: 2px solid #4cdfaf;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    top: 65px;
+    right: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, .5);
+    box-shadow:  5px 20px 20px 3px;
+}
+
+h5 {
+    font-family: IRANSans;
+    font-size: 19pt;
+    color: white;
+    direction: rtl;
+    text-align: right;
+    margin-top: 36px;
+    margin-right: 50px;
+}
+
+p {
+    font-size: 13pt;
+    font-family: IRANSans;
+    direction: rtl;
+    text-align: right;
+    color: white;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.input {
+    border: none;
+    width: 81%;
+    height: 40px;
+    margin: auto;
+    font-family: IRANSans;
+    font-size: 12pt;
+    border-radius: 20px;
+    text-align: center;
+    direction: rtl;
+    margin-left: 40px;
+    overflow: hidden;
+    outline: none;
+}
+
+.line {
+    display: block;
+    width: 79%;
+    height: 2px;
+    background: #4cdfaf;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+.btn2 {
+    font-family: IRANSans;
+    font-size: 14pt;
+    text-align: center;
+    direction: rtl;
+    width: 150px;
+    margin-bottom: 35px;
+    border-radius: 7px;
+    margin-left: 125px;
+}
+.a{
+    color: white;
+    font-family: IRANSans;
+    font-size: 14pt;
+    direction: rtl;
+    position:absolute;
+    bottom: 10px;
+    left: 130px;
+    text-decoration: none!important;
+
+
+}
+
+/* َa:hover{ */
+   /* color: #4cdfaf!important; */
+    /* text-decoration: none!important; */
+/* } */
