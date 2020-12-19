@@ -1,23 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from '../Header/Header';
+import Baner from "../Baner/Baner";
 // import { BrowserRouter, Route, Switch } from "react-router-dom";
-import 'antd/dist/antd.css';
-import AppHeader from '../AppHeader/AppHeader';
-import AppCarousel from '../AppCarousel/AppCarousel';
+import style from '../../style.css'
+
 
 export default function Home(props) {
     return (
         <div>
-            <AppHeader />
-            <AppCarousel />
+            <Header/>
+            <Baner/>
         </div>
-
-
 
 
     )
 }
 
 if (document.getElementById('Main')) {
-    ReactDOM.render(<Home />, document.getElementById('Main'));
+    ReactDOM.render(<Home/>, document.getElementById('Main'));
 }

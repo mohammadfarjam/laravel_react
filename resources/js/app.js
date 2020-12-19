@@ -13,8 +13,9 @@ require('./bootstrap');
  */
 require('./components/Home/Home');
 
-require('./components/AppHeader/AppHeader');
+require('./components/Header/Header');
+require('./components/Baner/Baner');
 
 require('./components/Register/Register');
 require('./components/Login/Login');
-require('./components/AppCarousel/AppCarousel');
+
