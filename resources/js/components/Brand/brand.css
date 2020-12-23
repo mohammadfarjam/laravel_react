@@ -1,0 +1,37 @@
+.brand_area{
+    padding: 1rem 9rem;
+    margin-bottom: 4rem;
+}
+.brand_area .first_row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.brand_area .first_row .col-lg-4 > .single_brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    /*padding: 1.8rem 0rem;*/
+    margin: .9rem 0;
+    width: 180px;
+    /* height: 100px; */
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.brand_area .first_row .col-lg-4 > .single_brand:hover{
+box-shadow: var(--box-shadow);
+transform: scale(1.1);
+}
+
+.brand_area .first_row .col-lg-4 > .single_brand:hover > img{
+   filter: brightness(0.70);
+    }
+
+.brand_area .experiance_area{
+    padding-left: 1rem;
+
+}
+
+.brand_area .experiance_area span{
+    display: block;
+    
+}

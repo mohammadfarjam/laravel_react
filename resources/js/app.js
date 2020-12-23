@@ -15,6 +15,10 @@ require('./components/Home/Home');
 
 require('./components/Header/Header');
 require('./components/Baner/Baner');
+require('./components/About/About');
+require('./components/Brand/Brand');
+require('./components/Services/Service');
+require('./components/Project/Project');
 
 require('./components/Register/Register');
 require('./components/Login/Login');

@@ -1,0 +1,21 @@
+.project_area {
+    padding: 4rem 0;
+}
+
+.project_area .button_group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.project_area .button_group button + button {
+ padding-left: 3rem;
+}
+.project_area .grid .our_project > .title h4{
+    font:normal 600 18px/12px var(--roboto);
+}
+button:focus,button:active,button:hover.btn:active,.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}

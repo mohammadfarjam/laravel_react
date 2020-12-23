@@ -1,0 +1,37 @@
+.title_text {
+    font: normal bold 40px/72px var(--roboto);
+}
+
+.button_style {
+    font: normal 500 16px/20px var(--roboto);
+    border: 3px solid transparent;
+    border-radius: 4px;
+    position: relative;
+    background: var(--gradient-color);
+    padding: .8rem 2.2rem;
+    color: whitesmoke;
+    background-clip: padding-box;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button_style:hover {
+    color: black;
+    background: whitesmoke;
+    background-clip: padding-box;
+}
+
+.button_style::after,.button_secondery::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+    background: var(--gradient-color);
+}
+
+
+
